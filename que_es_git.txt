@@ -1,0 +1,35 @@
+¿Qué es git?
+Es un sistema de control de versiones, controla, administra las distintas versiones de un programa, funciona de manera local
+¿Cuáles son los comandos básicos y para qué sirven?
+Git init: sirve para inicializar
+Git add: sirve para agregar al espacio de trabajo
+Git status: sirve para ver que archivo estamos trabajando y que archivos hay 
+Git commit: sirve para tener una captura o una copia de nuestro código 
+Git push: sirve para ingresar los archivos a un repositorio 
+Girt pull: sirve para descargar los cambios de un repositorio remoto y actualizar un repositorio local 
+Git clone: sirve para hacer una copia con todo su historial de un repositorio remoto en la computadora 
+¿Cuál es la diferencia entre Git y Github?
+Git: es un sistema de control de versiones local, permite rastrear cambios del código, trabajar en equipo y manejar versiones de un proyecto
+ Github: es una plataforma en línea, permite almacenar repositorios Git en la nube facilitando la colaboración, la gestión de código y trabajo en equipo 
+Enumerar los comandos para subir cambios a un repositorio 
+1. Git init
+2. Git add README.md
+3. Git commit -m “un mensaje descriptivo”
+4. Gir remote add origin (la dirección de nuestro repositorio)
+5. Gir push -u origin master 
+¿Qué es un Branch?
+Es una rama, una versión alternativa del código donde se puede trabajar, corregir errores o experimentar sin afectar al código principal 
+¿Cuál es la diferencia entre un repositorio local y un repositorio remoto?
+En un repositorio local solo tengo acceso desde mi computadora puedo modificar, corregir errores y hacer commit. 
+Un repositorio remoto remoto se encuentra en una plataforma en la nube donde otros progamadores pueden acceder a él.
+¿Cuáles son los comandos básicos para:
+* Inicializar un repositorio: git init
+* Descargar un repositorio: git clone
+* Agregar archivos a un repositorio local: git add
+* Confirmar cambios en repositorio local: git commit -m “mensaje” 
+* Subir cambios a un repositorio remoto: git push origin main 
+* Invertir cambios en un Branch: git checkout 
+
+
+
+
